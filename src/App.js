@@ -22,6 +22,12 @@ const INITIAL_EXPENSES = [
     amount: 450,
     date: new Date(2021, 5, 12),
   },
+  {
+    id: 'e5',
+    title: 'Lego City Train',
+    amount: 100,
+    date: new Date(2022, 6, 24),
+  },
 ];
 
 function App() {
