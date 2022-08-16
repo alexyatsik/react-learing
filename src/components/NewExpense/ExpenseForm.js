@@ -21,7 +21,7 @@ const ExpenseForm = (props) => {
     const expenseData = {
       title: titleInput,
       date: new Date(dateInput),
-      amount: priceInput
+      amount: parseInt(priceInput)
     }
     props.onSubmitForm(expenseData);
 
